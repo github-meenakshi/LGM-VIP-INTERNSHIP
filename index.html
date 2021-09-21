@@ -1,0 +1,646 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIPPY</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Nunito:wght@600;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <section id="title">
+            <nav class="navbar navbar-expand-lg" style="background-color: rgb(133, 148, 248);">
+                <!-- <img src="./imgs/logo.jpeg" class="navbar-brand" style="height: 90px; width: 90px; margin-left: 20px;"> -->
+                <h1 class="navbar-brand" style="margin-left: 20px;"><span>ZIPPY</span></h1>
+
+
+                <button class="navbar-toggler" type="button" style="margin-right: 20px;" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#main"><strong>HOME</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project"><strong>PROJECTS</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing"><strong>PRICING</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team"><strong>TEAM</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#events"><strong>BLOG</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact"><strong>CONTACT</strong></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+    <!-- end of header section -->
+
+
+
+    <!-- Head -->
+    <!-- ====== Carousel(image slider) ====== -->
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+        <!-- carousel indicators -->
+        <ol class="carousel-indicators pb-5">
+            <li data-target="#carouselExampleInterval" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleInterval" data-slide-to="1"></li>
+            <li data-target="#carouselExampleInterval" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" id="home" role="listbox">
+            <div class="carousel-item active">
+                <div id="home" class="first-section" style="background-image:url('imgs/main_final.jpg');">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div id="home" class="first-section" style="background-image:url('imgs/main_class.jpg');">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div id="home" class="first-section" style="background-image:url('imgs/main_graduation.jpg');">
+                </div>
+            </div>
+        </div>
+        <!-- left control icon -->
+        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <!-- right control icon -->
+        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+    <!-- end of carousel -->
+
+
+
+
+    <!-- Welcome to Zippy -->
+
+    <div class="container">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="heading" style="text-align: center;"> <span>Welcome</span> To Zippy </h1>
+        </div>
+        <p style="text-align: center; font-size: 1.3rem;">
+            This is Photoshop's version of Lorem Ipsum. Proin gravide nibh vel velit auctor aliquet. Aeneam
+            sollicitudin, lorem quis bibendum auctor.
+        </p>
+        </header>
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3 text-white bg-warning">
+                            <h4 class="my-0 fw-normal"><i class="fa fa-envelope"></i> IPSUM</h4>
+                        </div>
+                        <div class="card-body">
+
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Lorem ipsum dolor sit</li>
+                                <li>amet, consectetuer adipiscing</li>
+                                <li>elit, sed diam
+                                    nonummy</li>
+                                <li>nibh euismod dolore magna.</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3 text-white bg-warning">
+                            <h4 class="my-0 fw-normal"><i class="fa fa-envelope"></i> DOLOR SIT</h4>
+                        </div>
+                        <div class="card-body">
+
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Lorem ipsum dolor sit</li>
+                                <li>amet, consectetuer adipiscing</li>
+                                <li>elit, sed diam
+                                    nonummy</li>
+                                <li>nibh euismod dolore magna.</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3 text-white bg-warning">
+                            <h4 class="my-0 fw-normal"><i class="fa fa-envelope"></i> CONSECTECTURE</h4>
+                        </div>
+                        <div class="card-body">
+
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Lorem ipsum dolor sit</li>
+                                <li>amet, consectetuer adipiscing</li>
+                                <li>elit, sed diam
+                                    nonummy</li>
+                                <li>nibh euismod dolore magna.</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </div>
+    <!-- End Of Welcome to Zippy -->
+
+
+
+    <!-- Project Section -->
+    <div class="container d-flex align-items-center justify-content-center" id="project">
+        <h1 class="heading" style="text-align: center;"> <span>PROJECTS</span></h1>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./imgs/project1.jpg"
+                        alt="">
+
+                    <div class="card-body">
+                        <div class="col">
+                            <div
+                                class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                <div class="col p-4 d-flex flex-column position-static">
+                                    <h4 class="mb-0">Project Name</h4>
+                                    <div class="mb-1 text-muted">Nov 11</div>
+                                    <p class="mb-auto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam
+                                        nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                                    <button type="button" class="btn btn-outline-primary">Learn More</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./imgs/project2.jpg"
+                        alt="">
+
+                    <div class="card-body">
+                        <div class="col">
+                            <div
+                                class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                <div class="col p-4 d-flex flex-column position-static">
+                                    <h4 class="mb-0">Project Name</h4>
+                                    <div class="mb-1 text-muted">Nov 11</div>
+                                    <p class="mb-auto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam
+                                        nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                                    <button type="button" class="btn btn-outline-primary">Learn More</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./imgs/project3.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <div class="col">
+                            <div
+                                class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                <div class="col p-4 d-flex flex-column position-static">
+                                    <h4 class="mb-0">Project Name</h4>
+                                    <div class="mb-1 text-muted">Nov 11</div>
+                                    <p class="mb-auto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam
+                                        nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                                    <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                        <button type="button" class="btn btn-outline-primary">Learn More</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Of Project Section -->
+     
+     
+       <!-- Video Projects -->
+  <div class="video-project" id="videoproject">
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="heading" style="text-align: center;"> <span>Video</span> Project </h1>
+        </div>
+
+    <div class="marquee-wrapper">
+        <div class="marquee">
+          <iframe width="1000" height="400" style="margin-right: 2%;" src="https://www.youtube.com/embed/k9FkUq89Ug8">
+          </iframe>
+          <iframe width="1000" height="400" style="margin-right: 2%;" src="https://www.youtube.com/embed/6yqOsvRelD8">
+          </iframe>
+          <iframe width="1000" height="400" style="margin-right: 2%;" src="https://www.youtube.com/embed/qprMjrDcIfU">
+          </iframe>
+          <iframe width="1000" height="400" style="margin-right: 2%;" src="https://www.youtube.com/embed/kyWjDAGyeDw">
+          </iframe>
+          <iframe width="1000" height="400" style="margin-right: 2%;" src="https://www.youtube.com/embed/kHT1sfbcDSU">
+          </iframe>
+          <iframe width="1000" height="400" style="margin-right: 2%;" src="https://www.youtube.com/embed/eqmsfzRzecY">
+          </iframe>
+          <iframe width="1000" height="400" style="margin-right: 2%;" src="https://www.youtube.com/embed/qprMjrDcIfU">
+          </iframe>
+          <iframe width="1000" height="400" style="margin-right: 2%;" src="https://www.youtube.com/embed/k9FkUq89Ug8">
+          </iframe>
+          <iframe width="1000" height="400" style="margin-right: 2%;" src="https://www.youtube.com/embed/kyWjDAGyeDw">
+          </iframe>
+          <iframe width="1000" height="400" style="margin-right: 2%;" src="https://www.youtube.com/embed/_6RM-VYdZnM">
+          </iframe>
+        </div>
+      </div>
+    
+  </div>
+  <!-- End Of Video Project -->
+
+
+
+    <!-- Pricing Table -->
+
+    <div class="container" id="pricing">
+
+
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="heading" style="text-align: center;"> <span>Pricing</span> Table </h1>
+        </div>
+        </header>
+
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3 text-white bg-warning">
+                            <h4 class="my-0 fw-normal">Standard Plan</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">Free<small class="text-muted fw-light">/mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>2 GB Available</li>
+                                <li>15 Max. Contacts</li>
+                                <li>30 Messeges Month</li>
+                                <li>Ads Available</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3 text-white bg-warning">
+                            <h4 class="my-0 fw-normal">Business Plan</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$19<small class="text-muted fw-light">/mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 GB Available</li>
+                                <li>25 Max. Contacts</li>
+                                <li>120 Messeges Month</li>
+                                <li>Ads Free</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3 text-white bg-warning">
+                            <h4 class="my-0 fw-normal">Premium Plan</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$14<small class="text-muted fw-light">/mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>100 GB Available</li>
+                                <li> Unlimited Contacts</li>
+                                <li>Unlimited Messeges Month</li>
+                                <li>Ads Free</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- End Of Pricing Table -->
+
+
+
+    <!-- Team Section  -->
+
+    <div class="container d-flex align-items-center justify-content-center" id="team">
+        <h1 class="heading" style="text-align: center;"> <span>Zippy</span> Team </h1>
+    </div>
+
+    <div class="container" style="display:flex;justify-content: center;width:70%;align-items: center;">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5"
+            style="display:flex;justify-content: center;align-items: center;flex-wrap: wrap;">
+            <div class="col-12 col-sm-6 col-md-4"><img src="./imgs/one.jpg" height="180" style="border-radius: 40%;"
+                    class="d-block w-100" alt="">
+                <h5 style="text-align: center;">Sara Johinson</h5>
+                <p style="text-align: center;">Creative Head</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4"><img src="./imgs/two.jpg" height="180" style="border-radius: 40%;"
+                    class="d-block w-100" alt="">
+                <h5 style="text-align: center;">Matt Alex</h5>
+                <p style="text-align: center;">Art Director</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4"><img src="./imgs/three.jpg" height="180" style="border-radius: 40%;"
+                    class="d-block w-100" alt="">
+                <h5 style="text-align: center;">Daizy</h5>
+                <p style="text-align: center;"> Senior Designer</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4"><img src="./imgs/four.jpg" height="180" style="border-radius: 40%;"
+                    class="d-block w-100" alt="">
+                <h5 style="text-align: center;">Aliza</h5>
+                <p style="text-align: center;">SEO MONSTER</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4"><img src="./imgs/five.jpg" height="180" style="border-radius: 40%;"
+                    class="d-block w-100" alt="">
+                <h5 style="text-align: center;">Stella</h5>
+                <p style="text-align: center;">Marketing Manager</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4"><img src="./imgs/six.jpg" height="180" style="border-radius: 40%;"
+                    class="d-block w-100" alt="">
+                <h5 style="text-align: center;">Celien John</h5>
+                <p style="text-align: center;">Senior Designer</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of TEAM --><br><br><br><br>
+
+
+
+    <!-- Life AT Zippy -->
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+        <h1 class="heading" style="text-align: center;"> <span>Life</span> in Zippy </h1>
+        <ol class="carousel-indicators pb-5">
+            <li data-target="#carouselExampleInterval" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleInterval" data-slide-to="1"></li>
+            <li data-target="#carouselExampleInterval" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" id="home" role="listbox">
+            <div class="carousel-item active">
+                <div id="home" class="first-section" style="background-image:url('imgs/life1.jpg');">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div id="home" class="first-section" style="background-image:url('imgs/life2.jpg');">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div id="home" class="first-section" style="background-image:url('imgs/life3.jpg');">
+                </div>
+            </div>
+        </div>
+        <!-- left control icon -->
+        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <!-- right control icon -->
+        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+    <!-- end of carousel -->
+    <!-- Life At Zippy -->
+
+
+
+    <!-- newsletter -->
+    <section class="home-newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="single">
+                        <h1 class="heading" style="text-align: center;"> <span>NEWS LETTER</span> SIGNUP </h1>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <span class="input-group-btn">
+                                <button class="btn btn-theme" type="submit">Subscribe</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Of Newsletter -->
+
+
+
+    <!-- ====== Blog Section ====== -->
+    <section id="events" class="events">
+        <div class="container my-5">
+            <div class="section-title mb-5 text-center">
+                <h1 class="heading" style="text-align: center;"> <span>BLOG</span></h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 d-flex align-items-stretch">
+                    <div class="card eventCard">
+                        <div class="card-img">
+                            <img src="imgs/blog1.jpg" alt="...">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="">LOREM IPSUM DOLOR SIT AMET</a></h5>
+                            <p class="font-italic ">Saturday, September 16th at 5:00 pm</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                                nonummy nibh euismod tincidunt ut laoreet dolore magna. Lorem Ipsum is simply dummy text
+                                of the printing and typesetting industry.</p>
+                            <div class="col text-center">
+                                <a href="" class="btn btn-outline-primary ml-auto">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-stretch">
+                    <div class="card eventCard">
+                        <div class="card-img">
+                            <img src="imgs/blog2.jpg" alt="...">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="">LOREM IPSUM DOLOR SIT AMET</a></h5>
+                            <p class="font-italic ">Saturday, September 16th at 5:00 pm</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                                nonummy nibh euismod tincidunt ut laoreet dolore magna. Lorem Ipsum is simply dummy text
+                                of the printing and typesetting industry.</p>
+                            <div class="col text-center">
+                                <a href="" class="btn btn-outline-primary ml-auto">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-stretch">
+                    <div class="card eventCard">
+                        <div class="card-img">
+                            <img src="imgs/blog3.jpg" alt="...">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="">LOREM IPSUM DOLOR SIT AMET</a></h5>
+                            <p class="font-italic ">Saturday, September 16th at 5:00 pm</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                                nonummy nibh euismod tincidunt ut laoreet dolore magna. Lorem Ipsum is simply dummy text
+                                of the printing and typesetting industry. </p>
+                            <div class="col text-center">
+                                <a href="" class="btn btn-outline-primary ml-auto">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-stretch">
+                    <div class="card eventCard">
+                        <div class="card-img">
+                            <img src="imgs/blog4.jpg" alt="...">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="">LOREM IPSUM DOLOR SIT AMET</a></h5>
+                            <p class="font-italic ">Saturday, September 16th at 5:00 pm</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                                nonummy nibh euismod tincidunt ut laoreet dolore magna. Lorem Ipsum is simply dummy text
+                                of the printing and typesetting industry.</p>
+                            <div class="col text-center">
+                                <a href="" class="btn btn-outline-primary ml-auto">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Blog Section -->
+
+
+
+    <!-- contact page -->
+<div class="bg-info contact4 overflow-hiddedn position-relative">
+  <!-- Row  -->
+  <div class="row no-gutters">
+    <div class="container">
+      <div class="col-lg-6 contact-box mb-4 mb-md-0">
+        <div class="">
+          <div class="section-title mb-5 text-center" Id="contact">
+                <h1 class="heading" style="text-align: center;"> <span>CONTACT</span> US</h1>
+            </div>
+          <form class="mt-3">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="form-group mt-2">
+                  <input class="form-control text-white" type="text" placeholder="name">
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="form-group mt-2">
+                  <input class="form-control text-white" type="email" placeholder="email address">
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="form-group mt-2">
+                  <textarea class="form-control text-white" rows="3" placeholder="message"></textarea>
+                </div>
+              </div>
+              <div class="col-lg-12 d-flex align-items-center mt-2">
+                <button type="submit" class="btn bg-white text-inverse px-3 py-2"><span> Submit</span></button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 right-image p-r-0">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1619902.0054433027!2d-122.68851282163044!3d37.534535608111824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1507725785789"
+        width="100%" height="538" frameborder="0" style="border:0" allowfullscreen data-aos="fade-left" data-aos-duration="3000"></iframe>
+    </div>
+  </div>
+</div>
+
+    <!-- Contact section ends -->
+
+
+
+    <!-- footer section -->
+
+    <footer class="footer">
+        <div class="l-footer">
+            <h1>OFFICE ADDRESS
+            </h1>
+            <p style="color: black">Lorem Lpsum Dolor,234<br> 1200 Consectune<br> Adipsching</p>
+
+        </div>
+        <ul class="r-footer">
+            <li>
+                <h1>FOLLOW US</h1>
+                <a href="#" style="color: black;"><i class="fa fa-envelope "></i></a>
+                <a href="" style="color: black;"><i class="fab fa-instagram mx-2"></i></a>
+                <a href="" style="color: black;"><i class="fab fa-linkedin mx-2"></i></a>
+                <a href="" style="color: black;"><i class="fab fa-facebook mx-2"></i></a>
+                <a href="" style="color: black;"><i class="fab fa-google mx-2"></i></a>
+                <a href="" style="color: black;"><i class="fab fa-twitter mx-2"></i></a>
+            </li>
+            <li class="features">
+                <h1>CONTACT US</h1>
+                <ul class="btn btn">
+                    <li><a href="#" style="color: black;">+ 123 456 789</a></li>
+                    <li><a href="#" style="color: black;">zippy@skype</a></li>
+                    <li><a href="#" style="color: black;">enquiry@zippy.com</a></li>
+                </ul>
+            </li>
+
+        </ul>
+        <div class="b-footer">
+            <p style="color: black;">
+                ©2021 ZIPPY. All Rights Reserved. </p>
+        </div>
+        <p>
+            Powered by ZIPPY </p>
+    </footer>
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js"
+        integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

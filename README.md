@@ -1,1 +1,1 @@
-# LGM-VIP-INTERNSHIP
+# LGMVIP-Web-Development
